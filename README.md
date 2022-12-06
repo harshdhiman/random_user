@@ -12,7 +12,7 @@ This is a simple app that uses the randomuser.me API to generate random users.
  - `react-icons` - for icons
  - `framer-motion` - for animations 
 
-#Installation
+# Installation
 
  - Clone the repo
  - `pnpm i` or `npm i` to install the dependencies
@@ -22,7 +22,7 @@ This is a simple app that uses the randomuser.me API to generate random users.
  - `pnpm dev` or `npm run dev` to start the development server
  
 
-#Screenshots
+# Screenshots
 
 ![Screenshot 1](https://raw.githubusercontent.com/harshdhiman/random_user/master/showcase/1.png)
 
