@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 0.04;
+  z-index: -1;
+  font-size: 5vh;
+  font-weight: 700;
+  line-height: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.7;
+}
+
+/* Zoom out applied on phones and other small devices cause of phones generally have high resolution */
+@media only screen and (max-width: 600px) {
+  html {
+    zoom: 0.6;
+  }
+}
