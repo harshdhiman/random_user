@@ -1,4 +1,4 @@
-#Random User
+# Random User
 
 This is a simple app that uses the randomuser.me API to generate random users.
 
@@ -7,10 +7,10 @@ This is a simple app that uses the randomuser.me API to generate random users.
  - uses 'TailwindCSS' for styling
 
  ### Dependencies
- - axios - for making API calls
- - date-fns - for formatting dates
- - react-icons - for icons
- - framer-motion - for animations 
+ - `axios` - for making API calls
+ - `date-fns` - for formatting dates
+ - `react-icons` - for icons
+ - `framer-motion` - for animations 
 
 #Installation
 
@@ -24,7 +24,7 @@ This is a simple app that uses the randomuser.me API to generate random users.
 
 #Screenshots
 
-![Screenshot 1]()
+![Screenshot 1](https://raw.githubusercontent.com/harshdhiman/random_user/master/showcase/1.png)
 
 
 
