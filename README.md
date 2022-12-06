@@ -1,5 +1,7 @@
 # Random User
 
+Live at https://random-user-0.netlify.app/
+
 This is a simple app that uses the randomuser.me API to generate random users.
 
  - uses 'Vite' for bundling
